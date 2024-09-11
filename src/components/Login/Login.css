@@ -1,0 +1,72 @@
+/* Login.css */
+
+/* Container for centering the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styling for the login form */
+  .login-form {
+    background-color: #fff; /* White background for the form */
+    padding: 2rem; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Maximum width of the form */
+    width: 100%; /* Full width on small screens */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Form title styling */
+  .login-form h2 {
+    margin-bottom: 1rem; /* Space below the title */
+    text-align: center; /* Center align the text */
+    color: #333; /* Dark color for the title */
+    font-size: 1.5rem; /* Adjust font size for better visibility */
+  }
+  
+  /* Input field styling */
+  .login-form input {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Padding inside the input field */
+    margin-bottom: 1rem; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 1rem; /* Standard font size */
+  }
+  
+  /* Button styling */
+  .login-form button {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    font-size: 1rem; /* Standard font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .login-form {
+      padding: 1rem; /* Less padding on smaller screens */
+      max-width: 90%; /* Adjust max width for small screens */
+    }
+  
+    .login-form h2 {
+      font-size: 1.25rem; /* Smaller font size on small screens */
+    }
+  }
+  

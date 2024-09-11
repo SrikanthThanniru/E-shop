@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "4d00",
+      "name": "Shirt",
+      "company": "Denim",
+      "category": "Clothes",
+      "price": "250",
+      "imageUrl": "https://th.bing.com/th/id/OIP.uIx6RIZluCZQOWuFTFO03gHaJ4?rs=1&pid=ImgDetMain",
+      "description": "Casual shirt with good fabrics, easy to wash, good material",
+      "rating": "2 star"
+    },
+    {
+      "id": "b6aa",
+      "name": "Shirt",
+      "company": "Levis",
+      "category": "Clothes",
+      "price": "299",
+      "imageUrl": "https://th.bing.com/th/id/OIP.dRuhkVwX_2O5-vxeotsf0gAAAA?rs=1&pid=ImgDetMain",
+      "description": "Classic one with good fabric, worthy to buy",
+      "rating": "4 star"
+    },
+    {
+      "id": "8bbf",
+      "name": "Laptop",
+      "company": "Lenovo",
+      "category": "Electronics",
+      "price": "250000",
+      "imageUrl": "https://th.bing.com/th/id/R.a243c72be94e93f1399f3399b06c7677?rik=hrhQ9%2b%2fJ1SSPHA&riu=http%3a%2f%2fwww.riskmanagementmonitor.com%2fwp-content%2fuploads%2f2014%2f12%2fLaptop1.jpg&ehk=OfidPRNnM1a1JERcjUs9J725LwV1tT7YdUTEmeAi5Gw%3d&risl=1&pid=ImgRaw&r=0",
+      "description": "Core i5 10th gen, 1500X900, 1600 battery, 50MP",
+      "rating": "3 star"
+    },
+    {
+      "id": "8a32",
+      "name": "iphone 15",
+      "company": "Apple",
+      "category": "Mobile",
+      "price": "55000",
+      "imageUrl": "https://images.hindustantimes.com/tech/img/2022/09/20/1600x900/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US_1662809684583_1663679105577_1663679105577.jpg",
+      "description": "iphone 15 pro",
+      "rating": "4 star"
+    },
+    {
+      "id": "a518",
+      "name": "Headset",
+      "company": "Sony",
+      "category": "Electronics",
+      "price": "59999",
+      "imageUrl": "https://www.progamerreview.com/wp-content/uploads/2016/11/1-44-696x977.jpg",
+      "description": "High quality in sound, microphone availability",
+      "rating": "3 star"
+    },
+    {
+      "id": "6416",
+      "name": "Car",
+      "company": "Thar",
+      "category": "Toy",
+      "price": "6000",
+      "imageUrl": "https://i5.walmartimages.com/asr/ca799ed4-cf44-41f6-8222-0f298b65d036_1.a1ba13e4c470402344d0feb62ec23147.jpeg",
+      "description": "Best toy car for children to use, good material",
+      "rating": "2 star"
+    },
+    {
+      "id": "fbae",
+      "name": "Earrings",
+      "company": "Max",
+      "category": "Jewelry",
+      "price": "1200",
+      "imageUrl": "https://img0.etsystatic.com/133/0/7257764/il_fullxfull.914430224_dvdn.jpg",
+      "description": "Good quality product to buy",
+      "rating": "3 star"
+    },
+    {
+      "id": "f857",
+      "name": "Flower pot",
+      "company": "Jaror",
+      "category": "Gardening",
+      "price": "900",
+      "imageUrl": "https://i5.walmartimages.com/asr/db805c1c-9f29-472e-a359-c4625938f638_1.d1f33997befa2f5251431baca8d033ad.jpeg",
+      "description": "Good material for gardening for plantation",
+      "rating": "3 star"
+    },
+    {
+      "id": "de80",
+      "name": "Saree",
+      "company": "kanchi",
+      "category": "Clothing",
+      "price": "1500",
+      "imageUrl": "https://4.bp.blogspot.com/-oG5q8s_S46k/XBMifWKFijI/AAAAAAAALh4/mkPFIfZVBrwgxMmiZfVJg0BjDY9mO7BRwCLcBGAs/s1600/797996c5c96f15652ada052247f6be13.jpg",
+      "description": "Best quality to buy the saree, worthy it",
+      "rating": "4 star"
+    },
+    {
+      "id": "ab07",
+      "name": "Lights",
+      "company": "Pansonic",
+      "category": "Electronics",
+      "price": "20000",
+      "imageUrl": "https://th.bing.com/th/id/OIP.34SE7TdF2fa2ZkZTCyQ6tgHaE5?rs=1&pid=ImgDetMain",
+      "description": "High quality materials for usage, high brightness",
+      "rating": "3 star"
+    },
+    {
+      "id": "99e5",
+      "name": "Bed",
+      "company": "kaor",
+      "category": "Furniture",
+      "price": "150000",
+      "imageUrl": "https://th.bing.com/th/id/R.1c44fae1c88608e24105c5e98af34a41?rik=J2cQ8ErBXMn19A&riu=http%3a%2f%2fdwellingdecor.com%2fwp-content%2fuploads%2f2015%2f12%2fMadison-Square-Upholstered-Panel-Bed.jpg&ehk=d1TLiXVbyWP8eQr4QgIXePop2NRPaDfE6D5mB4N6%2fjQ%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Best quality product to buy with good material in it",
+      "rating": "3 star"
+    },
+    {
+      "id": "19e2",
+      "name": "Plate",
+      "company": "karia",
+      "category": "Dining",
+      "price": "800",
+      "imageUrl": "https://importfood.com/media/zoo/images/plate-8-5-main-large_51b1e2f5690779f34bb1e4a56fc9532a.jpg",
+      "description": "Best quality product to usage, with good material",
+      "rating": "2 star"
+    },
+    {
+      "id": "5e3b",
+      "name": "Fan",
+      "company": "Anchor",
+      "category": "Electronics",
+      "price": "2000",
+      "imageUrl": "https://th.bing.com/th/id/OIP.2US9FvvnJqGFix1wO0hINAAAAA?rs=1&pid=ImgDetMain",
+      "description": "Good quality product to buy, high quality of speed",
+      "rating": "3 star"
+    },
+    {
+      "id": "eaa5",
+      "name": "Bottles",
+      "company": "glassor",
+      "category": "Kitchen",
+      "price": "900",
+      "imageUrl": "https://i5.walmartimages.com/asr/fef44a54-c985-4390-873f-14f2221f0671_1.3a93ad47de474cce1be894815dbc2ec2.jpeg",
+      "description": "Fine material to buy, easily non-breakable",
+      "rating": "3 star"
+    }
+  ]
+}

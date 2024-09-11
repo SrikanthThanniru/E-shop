@@ -1,0 +1,112 @@
+/* HomePage.css */
+
+/* Container for the entire Home Page */
+.home-page-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Carousel Styling */
+.carousel {
+  display: flex;
+  overflow-x: hidden; /* Hide horizontal scroll bar */
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  flex: 0 0 auto; /* Prevent items from shrinking */
+  width: 300px; /* Set a fixed width for carousel items */
+  height: 200px; /* Set a fixed height for carousel items */
+  margin-right: 10px; /* Gap between carousel items */
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  scroll-snap-align: start; /* Align items to the start */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+/* Product List Section */
+.product-list-section {
+  margin: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.862);
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  color:rgb(68, 12, 250);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.item-details {
+  padding: 10px;
+  line-height: 0.2;
+  
+}
+.item-details-name{
+  font-size: 16px;
+  color: black;
+}
+.item-details-company{
+  font-size: 14px;
+}
+.item-details-rating{
+  font-size: 12px;
+}
+.item-details-more{
+  font-size: 14px;
+}
+.span-name {
+  color: #888;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 250px; /* Adjust width for smaller screens */
+    height: 180px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item {
+    width: 200px; /* Adjust width for very small screens */
+    height: 150px; /* Adjust height for very small screens */
+  }
+}

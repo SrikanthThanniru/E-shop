@@ -1,0 +1,102 @@
+/* ProductPage.css */
+
+/* Container for the Product Page */
+.product-page-container {
+  padding: 20px;
+  max-width: 1200px; /* Increased max-width for larger screens */
+  margin: 0 auto; 
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box; /* Ensure padding is included in total width */
+}
+
+/* Product Detail Image */
+.product-detail-image {
+  max-width: 100%; /* Make sure the image scales with its container */
+  height: 500px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the area */
+  border-radius: 8px;
+}
+
+/* Product Details */
+.product-page-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to start */
+  justify-content: flex-start; /* Ensure content aligns at the start */
+  line-height: 1.5; /* Improved readability */
+  padding: 10px;
+  width: 100%; /* Ensure it takes full width in smaller screens */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: left; /* Ensure text aligns left for better readability */
+}
+
+/* Product Title */
+.product-title {
+  font-size: 18px; /* Adjusted for prominence */
+  color: #333; /* Dark color for readability */
+  margin: 0 0 10px 0; /* Margin for spacing below title */
+}
+
+/* Product Description */
+.product-description {
+  font-size: 14px; /* Standard font size for readability */
+  color: #666; /* Slightly lighter color for description text */
+  margin: 0 0 10px 0; /* Margin for spacing below description */
+  text-align: left; /* Ensure description text aligns left */
+}
+
+/* Product Price */
+.product-price {
+  font-size: 16px; /* Slightly larger font for price */
+  color: #000; /* Dark color for emphasis */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .product-page-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px; /* Less padding on smaller screens */
+  }
+
+  .product-title {
+      font-size: 1.5rem; /* Smaller font size on smaller screens */
+  }
+
+  .product-price {
+      font-size: 1.2rem; /* Slightly smaller font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-page-container {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 5px; /* Less padding on extra small screens */
+  }
+
+  .product-page-details {
+      width: 100%; /* Full width in small screens */
+      padding: 5px; /* Less padding on extra small screens */
+  }
+
+  .product-title {
+      font-size: 1.2rem; /* Further reduced font size */
+  }
+
+  .product-price {
+      font-size: 1rem; /* Further reduced font size */
+  }
+
+  .product-description {
+      width: 100%;
+      font-size: 12px; /* Standard font size for readability */
+      color: #666; /* Slightly lighter color for description text */
+      text-align: left; /* Ensure description text aligns left */
+  }
+}
